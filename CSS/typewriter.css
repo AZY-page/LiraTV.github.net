@@ -1,0 +1,22 @@
+/**
+ * 打字机效果样式
+ */
+.typewriter {
+  /* 容器宽度自适应内容 */
+  display: inline-block;
+}
+
+.cursor {
+  display: inline-block;
+  width: 5px;
+  color: #fff;
+  text-align: center;
+  background-color: rgb(62, 62, 62);
+  animation: blink 1s steps(1, start) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
